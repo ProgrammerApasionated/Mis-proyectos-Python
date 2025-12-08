@@ -9,8 +9,6 @@
 # def racha_de_lluvias(lista_lluvias)  ->  Obtiene la cantidad máxima de rachas de lluvias.
 
 
-
-
 def obtener_lluvias():
     lista_lluvias = []
     cadena = input ("Introduce la cantidad de lluvia en (mm) (Cadena vacía para acabar) : \n")
@@ -66,10 +64,11 @@ def racha_de_lluvias(lista_lluvias):
     print(f"La racha de lluvias mayor ha sido de {mayor_longitud} dias \n")
     print(f"Ha empezado del dia {mayor_inicio} al dia {mayor_final} \n")
 
-lista1_lluvias = obtener_lluvias()
-cantidad_lluvia_maxima = lluvia_maxima(lista1_lluvias)
-cantidad_lluvia_minima = lluvias_minimas(lista1_lluvias)
-cant_no_lluvia = dias_sin_lluvia(lista1_lluvias)
-print (f"El día con la máxima lluvia ha sido {cantidad_lluvia_maxima} mm  y de menos {cantidad_lluvia_minima} mm \n")
-print (f"La racha con menos lluvias ha sido de {cant_no_lluvia} dias \n")
-racha_de_lluvias(lista1_lluvias)
+## EJEMPLOS DE USO ##
+##lista1_lluvias = obtener_lluvias()##
+##cantidad_lluvia_maxima = lluvia_maxima(lista1_lluvias)##
+##cantidad_lluvia_minima = lluvias_minimas(lista1_lluvias)##
+##cant_no_lluvia = dias_sin_lluvia(lista1_lluvias)##
+##print (f"El día con la máxima lluvia ha sido {cantidad_lluvia_maxima} mm  y de menos {cantidad_lluvia_minima} mm \n")##
+##print (f"La racha con menos lluvias ha sido de {cant_no_lluvia} dias \n")##
+##racha_de_lluvias(lista1_lluvias)##
