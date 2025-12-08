@@ -1,3 +1,6 @@
+# Simple prueba para comprobar la lógica de las rachas.
+# Programa que detecta rachas de números negativos.
+
 def racha_numeros_negativos(num):
     inicio = 0
     inicio_mayor = -1
