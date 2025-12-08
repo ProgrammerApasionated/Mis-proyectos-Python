@@ -119,7 +119,8 @@ def racha_de_ola_de_frio(lista_temperaturas):
 # Algoritmo consistente en inicializar las variables + ir sumando índices para comprobar todos los valores.
 # Finalmente, se depura los resultados y se enseña lo que significan.
 
-
+## EJEMPLOS DE USO ##
+''' 
 lista_temperatura = obtener_lista_temperaturas()
 maximo = maxima_temperatura(lista_temperatura)
 minimo = minima_temperatura(lista_temperatura)
@@ -131,4 +132,4 @@ print (f"El valor más bajo ha sido {minimo} grados ")
 racha_de_ola_de_frio(lista_temperatura)
 eliminar_un_elemento(lista_temperatura)
 media = media_temperaturas(lista_temperatura)
-print (f"La media de {lista_temperatura} es {media} grados ")
+print (f"La media de {lista_temperatura} es {media} grados ") '''
