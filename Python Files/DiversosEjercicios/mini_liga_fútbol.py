@@ -1,7 +1,7 @@
-
 # def obtener_resultados()                  ->   Mediante el input del usuario va calculando unos parámetros.
 
 # def racha_de_partidos(lista_resultados)   ->   Mediante una lista saca la racha de victorias.
+
 
 def obtener_resultados():
     lista_resultados = []
